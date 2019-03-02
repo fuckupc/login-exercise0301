@@ -1,0 +1,270 @@
+/*头部横条Start*/
+*{
+  color: #ffffff;
+}
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #0c3e70;
+}
+.header .headerBody {
+  margin: 0 auto;
+  width: 1200px;
+  height: 45px;
+}
+.header .headerBody .headerBodyLeft {
+  color: #ffffff;
+  height: 45px;
+  float: left;
+}
+.header .headerBody .headerBodyLeft .left {
+  display: inline-block;
+  height: 45px;
+  width: 40px;
+  background: url("logo.png") no-repeat center;
+  background-size: 100%;
+}
+.header .headerBody .headerBodyLeft .right {
+  height: 45px;
+  line-height: 45px;
+  font-size: 18px;
+  margin-left:10px;
+  vertical-align: top;
+}
+/* 头部横条中间 */
+.header .headerBody .headerBodyMid {
+  color: #ffffff;
+  float: left;
+  height: 45px;
+  margin-left: 63px;
+  font-size: 12px;
+}
+.header .headerBody .headerBodyMid ul li {
+  float: left; 
+  margin-left: 45px;
+  margin-top: 12px;
+  height: 12px;
+}
+/* 头部横条右侧 */
+.header .headerBody .headerBodyRight {
+  float: right; 
+  width: 469px;
+  height: 45px;
+  font-size: 12px;
+}
+.header .headerBody .headerBodyRight .weibo{
+  float: left;
+  width: 47px;
+  height: 45px;
+}
+.header .headerBody .headerBodyRight .weibo .text,
+.header .headerBody .headerBodyRight .welcome {
+  float: left;
+  height: 45px;
+  line-height: 45px;
+}
+.header .headerBody .headerBodyRight .weibo .icon-down {
+  float: left;
+  height: 45px;
+  line-height: 45px;
+}
+.header .headerBody .headerBodyRight input {
+  float: left;
+  width: 162px;
+	height: 13px;
+  border-radius: 10px;
+  text-indent: 14px;
+  padding: 4px 30px 5px 4px;
+  margin: 10px 0 13px 0;
+}
+.header .headerBody .headerBodyRight .welcome {
+  margin-left: 31px;
+}
+.header .headerBody .headerBodyRight .account {
+  float: right;
+  height: 45px;
+  line-height: 45px;
+}
+.header .headerBody .headerBodyRight .account span {
+  float: left;
+}
+.header .headerBody .headerBodyRight .icon-down {
+  margin-left: 6px;
+  transform: scale(0.7);
+  font-size: 12px;
+}
+/* 头部横条End */
+/* 背景 */
+.bg-login{
+  position: fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background: url("login-bg.jpg") no-repeat center;
+  background-size: 100%;
+  z-index: -1;
+}
+/* 内容区Start */
+.login-form {
+  box-sizing: border-box;
+  padding: 0 52px 0 52px;
+  width: 400px;
+  height: 447px;
+  background-color: #2a639a;
+	box-shadow: 3px 4px 5px 0px 
+		rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  margin: 114px auto 388px auto;
+}
+.login-form .userLogin {
+  width: 100px;
+	height: 24px;
+  font-size: 24px;
+  margin: 0 auto;
+  padding: 53px;
+}
+.login-form .input1-div,
+.login-form .input2-div,
+.login-form .input3-div {
+  width: 296px;
+	height: 38px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+}
+.login-form .input1-div .info,
+.login-form .input2-div .info,
+.login-form .input3-div .info {
+  padding-left: 14px;
+  float: left;
+	font-size: 14px;
+	color: #999999;
+  width: 50px;
+  height: 38px;
+  line-height: 38px;
+}
+.login-form .input1-div .userName,
+.login-form .input2-div .userName,
+.login-form .input3-div .userName {
+  float: left;
+  border: 0;
+  height: 38px;
+  width: 232px;
+}
+.login-form .input3-div {
+  float: left;
+  width: 175px;
+}
+.login-form .input3-div .userName {
+  width: 110px;
+}
+.login-form .checkCode {
+  float: left;
+  margin-left: 6px;
+  width: 89px;
+  height: 38px;
+  background: url("code.jpg") no-repeat center;
+  background-size: 100%;
+}
+.login-form .icon-refresh {
+  float: left;
+  width: 15px;
+	height: 13px;
+  margin-left: 8px;
+  margin-top: 6px;
+}
+/*7天内自动登录*/
+.login-form .rem {
+  clear: both;
+  margin-top: 30px;
+  width: 98px;
+	height: 13px;
+}
+.login-form .rem .remPwd {
+  -webkit-appearance: none;
+	background: #fff;
+	width: 13px;
+	height: 13px;
+  border: 0;
+  vertical-align: -2px;
+}
+.login-form .rem .remPwd:checked {
+  background:#fff url("ok.png") no-repeat center;
+	background-size:90%;
+}
+.login-form .loginBtn {
+  margin-top: 12px;
+  width: 296px;
+	height: 38px;
+  background-color: #0396db;
+  border: 0;
+  color: #fff;
+  font-size: 16px;
+}
+.login-form .below {
+  width: 100%;
+  height: 19px;
+  padding-top: 7px;
+}
+.login-form .below .register {
+  float: left;
+	height: 12px;
+}
+.login-form .below .fgtPwd {
+	height: 12px;
+  float: right;
+}
+/* 内容区End */
+
+/* 底注Start */
+.footer {
+  width: 100%;
+  height: 30px;
+  background: #0c3e70;
+  position: fixed;
+  bottom:0;
+}
+.footer .footerBody {
+  margin: 0 auto;
+  width: 1200px;
+  height: 30px;
+}
+.footer .footerBodyLeft {
+  float: left;
+}
+.footer .footerBodyLeft .left {
+  display: inline-block;
+  height: 30px;
+  width: 40px;
+  background: url("logo.png") no-repeat center;
+  background-size: 100%;
+}
+.footer .footerBodyLeft .right {
+  height: 30px;
+  line-height: 30px;
+  font-size: 13px;
+  margin-left:10px;
+  vertical-align: top;
+}
+.footer .footerBodyRight {
+  float: right;
+  height: 30px;
+  width: 250px;
+}
+.footer .footerBodyRight .contactUs {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  font-size: 13px;
+}
+.footer .footerBodyRight .otherCorp {
+  float: right;
+}
+.footer .footerBodyRight .otherCorp span {
+  float: left;
+  margin-left: 12px;
+  height: 30px;
+  line-height: 30px;
+}
+/* 底注End */
